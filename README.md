@@ -1,6 +1,6 @@
--v POST https://api-m.sandbox.paypal.com/v2/oauth2/token\
--H "Acceept:application/json"\
+-v POST https://api-m.sandbox.paypal.com/v1/oauth2/token\
+-H "Accept:application/json"\
 -H "Accept-language:en_US\
-_u "AfQSbmZ4z52QlPfwurkOn3yjyqb_xN4YYADjvnMQ-UnZZTOcsM-_nhoBsx8RYFREmtdAtxFY1agtQzR:EHGtQHAgHSOKd9JgF7alD810MgjBu1elsm9YW1atK_kMNhp-1FYXrbqR-Zkp9hNOSJp6TXLDyhsal9H"\
+_u "AQLGORj4KlMqS-yZP65SQgvHlJveloQV6VojTsfFlwZ2uJ0ubfXkP5Wr5t6Zoh5bFNt4gAz3LnPEQKQS:EFzyidjCrj8w5xBg9_4cf-54D1mMi0tDP3Xz08nzAGPAZMVMWrUcoilt9bTJIvfJseX1DW_-RNt2Y6wI"\
 -d
 "grant_type=client_credentials"
